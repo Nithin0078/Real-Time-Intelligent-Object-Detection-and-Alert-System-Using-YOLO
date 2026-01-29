@@ -27,8 +27,8 @@ Drivers need a real-time warning system when:
 
 ✔ Display live results on video
 
-🔍 3. Scope
-✅ In Scope
+ 3. Scope
+ In Scope
 
 🎥 Video-based vehicle detection
 
@@ -131,11 +131,17 @@ Python 3.9+
 
 📦 Dependencies
 ultralytics
+
 opencv-python
+
 numpy
+
 torch
+
 twilio
+
 streamlit
+
 lap
 
 🤖 Model
@@ -173,10 +179,15 @@ if distance < 100 and speed > 70:
 UI Features
 
 ✔ 📁 Video Upload
+
 ✔ 🎥 Live Video Display
+
 ✔ 🟩 Bounding Boxes
+
 ✔ 📏 Distance Overlay
+
 ✔ 🚀 Speed Overlay
+
 ✔ 🔔 Alert Indicator
 
 UI Framework
@@ -188,25 +199,33 @@ Streamlit 🟢 (Recommended)
 
 │
 ├── 🤖 models/
+
 │   └── yolov8n.pt
 
 │
 ├── 🖥️ ui/
+
 │   └── app.py
 
 │
 ├── 🚗 detection/
+
 │   ├── detector.py
+
 │   └── tracker.py
 
 │
 ├── 🧰 utils/
+
 │   ├── distance.py
+
 │   ├── speed.py
+
 │   └── alert.py
 
 │
 ├── 📄 requirements.txt
+
 └── 📘 README.md
 
 ✅ 14. Success Criteria
