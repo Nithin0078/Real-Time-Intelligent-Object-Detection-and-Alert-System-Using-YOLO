@@ -16,10 +16,15 @@ Drivers need a real-time warning system when:
 🎯 2. Project Objectives
 
 ✔ Detect vehicles using YOLOv8n
+
 ✔ Estimate distance between vehicles
+
 ✔ Calculate speed of nearby vehicles
+
 ✔ Trigger SMS alerts 📩 via Twilio
+
 ✔ Provide UI interface 🖥️ for video upload
+
 ✔ Display live results on video
 
 🔍 3. Scope
@@ -105,13 +110,21 @@ Twilio SMS
 Prevent repeated alerts ⏳
 
 🛡️ 6. Non-Functional Requirements
+
 🧩 Category	📌 Requirement
+
 ⚡ Performance	≥ 15 FPS
+
 🎯 Accuracy	±10%
+
 🧑‍💻 Usability	Easy UI
+
 🔒 Security	Secure API keys
+
 ♻ Reliability	No SMS spam
+
 🧰 7. Technology Stack
+
 🐍 Programming Language
 
 Python 3.9+
@@ -172,21 +185,26 @@ Streamlit 🟢 (Recommended)
 
 📂 13. Project Folder Structure
 📁 vehicle_alert_system/
+
 │
 ├── 🤖 models/
 │   └── yolov8n.pt
+
 │
 ├── 🖥️ ui/
 │   └── app.py
+
 │
 ├── 🚗 detection/
 │   ├── detector.py
 │   └── tracker.py
+
 │
 ├── 🧰 utils/
 │   ├── distance.py
 │   ├── speed.py
 │   └── alert.py
+
 │
 ├── 📄 requirements.txt
 └── 📘 README.md
@@ -194,17 +212,25 @@ Streamlit 🟢 (Recommended)
 ✅ 14. Success Criteria
 
 ✔ Accurate vehicle detection
+
 ✔ Correct distance calculation
+
 ✔ Reliable speed estimation
+
 ✔ SMS sent on alert conditions
+
 ✔ Smooth UI performance
 
 🔮 15. Future Enhancements
 
 🚦 Lane detection
+
 📷 Real-time camera feed
+
 📱 Mobile app
+
 ☁ Cloud dashboard
+
 🤝 Multi-vehicle prioritization
 
 🏁 16. Conclusion
